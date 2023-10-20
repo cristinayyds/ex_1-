@@ -1,0 +1,82 @@
+import cv2
+import matplotlib.pyplot as plt
+
+
+img1 = cv2.imread('image/0001_0.png')
+plt.subplot(3, 5, 1)
+plt.title("1 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img1)
+
+img2 = cv2.imread('image/0200_0.png')
+plt.subplot(3, 5, 2)
+plt.title("200 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img2)
+
+img3 = cv2.imread('image/0400_0.png')
+plt.subplot(3, 5, 3)
+plt.title("400 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img3)
+
+img4 = cv2.imread('image/0600_0.png')
+plt.subplot(3, 5, 4)
+plt.title("600 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img4)
+
+img5 = cv2.imread('image/0800_0.png')
+plt.subplot(3, 5, 5)
+plt.title("800 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img5)
+
+img6 = cv2.imread('image/1000_0.png')
+plt.subplot(3, 5, 6)
+plt.title("1000 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img6)
+
+img7 = cv2.imread('image/1200_0.png')
+plt.subplot(3, 5, 7)
+plt.title("1200 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img7)
+
+img8 = cv2.imread('image/1400_0.png')
+plt.subplot(3, 5, 8)
+plt.title("1200 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img8)
+
+img9 = cv2.imread('image/1600_0.png')
+plt.subplot(3, 5, 9)
+plt.title("1600 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img9)
+
+img10 = cv2.imread('image/1800_0.png')
+plt.subplot(3, 5, 10)
+plt.title("1800 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img10)
+
+img11 = cv2.imread('image/2000_0.png')
+plt.subplot(3, 5, 11)
+plt.title("2000 epoch", fontsize=8)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img11)
+
+plt.show()
